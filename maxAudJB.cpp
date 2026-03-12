@@ -10,6 +10,7 @@ rachas[i]
 vector<int> vl;
 cout <<”dime cuantas rachas quieres que te analice”;
 cin >> n;
+while (cin.peek()=='\n'){cin.ignore();}
 for (int i=0 ; i<n ; i++){
 getline (cin, temp); 
 rachas.push_back(temp);
